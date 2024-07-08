@@ -1,6 +1,11 @@
 defmodule JXON do
   @moduledoc """
   A wrapper for various JSON implementations.
+
+  ## Why?
+
+  It helps to create JSON-implementation-agnostic packages, leaving the choice
+  of JSON implementation to the user.
   """
 
   @spec encode(term()) :: {:ok, String.t()} | :error
@@ -23,7 +28,7 @@ defmodule JXON do
       end
 
       defp __decode__(binary) do
-        case Jason.decode(term) do
+        case Jason.decode(binary) do
           {:ok, string} -> {:ok, string}
           _ -> :error
         end

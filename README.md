@@ -1,21 +1,30 @@
 # JXON
 
-**TODO: Add description**
+[![CI](https://github.com/cozy-elixir/jxon/actions/workflows/ci.yml/badge.svg)](https://github.com/cozy-elixir/jxon/actions/workflows/ci.yml)
+[![Hex.pm](https://img.shields.io/hexpm/v/jxon.svg)](https://hex.pm/packages/jxon)
+
+A wrapper for various JSON implementations.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jxon` to your list of dependencies in `mix.exs`:
+Add `:jxon` to the list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:jxon, "~> 0.1.0"}
+    {:jxon, <requirement>}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/jxon>.
+## Usage
 
+For more information, see the [documentation](https://hexdocs.pm/jxon).
+
+## Thanks
+
+Inspired by the `json_module` of [jose](https://github.com/potatosalad/erlang-jose).
+
+## License
+
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)

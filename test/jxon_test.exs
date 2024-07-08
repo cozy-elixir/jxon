@@ -2,7 +2,5 @@ defmodule JXONTest do
   use ExUnit.Case
   doctest JXON
 
-  test "greets the world" do
-    assert JXON.hello() == :world
-  end
+  # The implementation is simple, so no test for now.
 end
