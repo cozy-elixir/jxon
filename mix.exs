@@ -31,7 +31,7 @@ defmodule JXON.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:jason, ">= 0.0.0", only: [:dev]},
+      {:jason, ">= 0.0.0", optional: true},
       {:ex_check, ">= 0.0.0", only: [:dev], runtime: false},
       {:credo, ">= 0.0.0", only: [:dev], runtime: false},
       {:dialyxir, ">= 0.0.0", only: [:dev], runtime: false},
