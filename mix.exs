@@ -1,7 +1,7 @@
 defmodule JXON.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @description "A wrapper for various JSON implementations."
   @source_url "https://github.com/cozy-elixir/jxon"
 
