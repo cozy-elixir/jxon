@@ -55,11 +55,11 @@ defmodule JXON do
 
     true ->
       defp __encode__(_term) do
-        raise "no JSON parser found"
+        raise "no JSON implementation found"
       end
 
       defp __decode__(_binary) do
-        raise "no JSON parser found"
+        raise "no JSON implementation found"
       end
   end
 end
